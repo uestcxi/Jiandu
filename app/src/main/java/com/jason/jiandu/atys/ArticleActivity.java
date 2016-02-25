@@ -35,7 +35,7 @@ public class ArticleActivity extends AppCompatActivity
         mArtContent = (JustifyTextView) findViewById(R.id.tv_content);
         mArtTitle = (TextView) findViewById(R.id.tv_title);
 
-        Typeface typeFace =Typeface.createFromAsset(getAssets(), "fonts/Roboto-Black.ttf");
+        Typeface typeFace =Typeface.createFromAsset(getAssets(), "fonts/Roboto-Light.ttf");
         mArtContent.setTypeface(typeFace);
 
         SimpleDateFormat format = new SimpleDateFormat("yyyyMMdd", Locale.CHINA);

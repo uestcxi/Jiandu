@@ -41,7 +41,7 @@ public class GetArticle
                             str = "无网络连接，请检查您的手机网络";
                             break;
                         case ErrorCode.OTHERS:
-                            str = "未知错误";
+                            str = "未知错误,请重启软件";
                             break;
                         case ErrorCode.TIME_OUT:
                             str = "网络超时";
