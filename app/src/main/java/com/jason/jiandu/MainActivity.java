@@ -20,6 +20,6 @@ public class MainActivity extends AppCompatActivity
         Bmob.initialize(this, "c9e12da55524ccffa01dfce7d9ac1efe");
 
         startActivity(new Intent(MainActivity.this, ArticleActivity.class));
-        finish(); 
+        finish();
     }
 }
